@@ -1,25 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio</title>
-</head>
-<body>
-    <div style="text-align: center;">
-    <h1>My Bio</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--My page name-->
+    <title>My Portfolio</title>
+    <!--Linking css file-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <h2>Tanmay Anand</h2>
+  <body>
+    <div class="main-wrapper">
+      <!--MIDDLE BOX-->
+      <div class="container">
+        <!--Left Side-->
+        <div class="left">
+          <img src="Super Shiro.jpg" alt="My Photo" class="profile-pic" />
+        </div>
 
-    <img src="test blur.jpeg" alt="My Photo" width="200" style="border-radius: 50%";>
+        <!--Right Side-->
+        <div class="right">
+          <h1 class="name">My Tasks</h1>
+          <p class="description">Tasks including following languages |</p>
+          <div class="logo">
+            <img src="html png.png" alt="HTML" />
+            <img src="css png.png" alt="CSS" />
+            <img src="js png.png" alt="JAVA-SCRIPT" />
+            <img src="java png.png" alt="JAVA" />
+          </div>
 
-    <p>
-        <a href="NEW RESUME.pdf" target="_blank">My Resume</a>
-    </p>
+          <div class="buttons">
+            <a href="NEW RESUME.pdf" class="link" target="_blank"
+              >View Resume</a>
+            <a
+              href="https://github.com/Tanmay-Anand"
+              class="link"
+              target="_blank"
+              >GitHub
+            </a>
+          </div>
+        </div>
+      </div>
 
-    <p>
-        <a href="https://github.com/Tanmay-Anand" target="_blank">My GitHub Profile</a>
-    </p>
+      <div class="container2">
+        <table class="table-body">
+          <tr class="heads">
+            <td style="width: 45%">Task</td>
+            <td style="width: 10%">Date</td>
+            <td style="width: 45%">Link</td>
+          </tr>
+          <tr>
+            <td>WWW Clone</td>
+            <td>14/05/25</td>
+            <td>WWWClone.netlify.app</td>
+          </tr>
+          <tr>
+            <td>WWW Clone</td>
+            <td>14/05/25</td>
+            <td>WWWClone.netlify.app</td>
+          </tr>
+          <tr>
+            <td>WWW Clone</td>
+            <td>14/05/25</td>
+            <td>WWWClone.netlify.app</td>
+          </tr>
+          <tr>
+            <td>WWW Clone</td>
+            <td>14/05/25</td>
+            <td>WWWClone.netlify.app</td>
+          </tr>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
