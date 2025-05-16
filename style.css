@@ -33,7 +33,9 @@ body {
   object-fit: contain; /* Keeps aspect ratio cleanly */
   margin-right: 10px;   /* Adds spacing between logos */
 }
-
+#oracle-logo{
+  width: 80px; height: 80px;
+}
 .left {
   margin-right: 100px;
 }
@@ -49,6 +51,7 @@ body {
 .buttons{
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
   gap: 15px
   
 }
